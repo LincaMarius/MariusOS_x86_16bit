@@ -45,5 +45,40 @@ We verify that the NASM assembler is working correctly: \
 
 Now we have the working environment ready to start writing code to develop an operating system.
 
+Developing an operating system can be accomplished through several steps.
 
+## Step 1 – Boot loader
+Specific to computers built with x86 processors is the Boot Process
+
+The Booting process involves loading the necessary files from an internal or external storage medium into the computer's memory and executing them. These files are the Kerner and Drivers. In x86 systems a file can only be run if it is in RAM
+
+The first step in the process of loading an operating system is for the BIOS to load and execute the Boot sector. This is also called the Boot Loader.
+
+We can use an existing Boot Loader such as GRUB or we can create our own Boot Loader.
+
+I approached the booting in two stages, so the Boot Loader will load the Loader.bin file.
+
+## Step 2 – Loader
+The loader's role is to initialize the computer's elements in the desired state and to gather information about the system.
+
+This information is collected using the BIOS and is saved for use by the Kernel, as it no longer has access to BIOS functions.
+
+## Step 3 – The Kernel
+The kernel is the heart of any Operating System. It controls all the activities that take place on that computer.
+
+The main activity of the Kerner is to manage system resources and allow their most efficient sharing between programs called processes.
+
+## Step 4 – Drivers
+Drivers are software components that allow the operating system to interface with the system's hardware elements.
+
+Drivers have the role of translating abstract Kerner commands into commands specific to the hardware components present in the system.
+
+## Step 5 – Applications
+The purpose of any system used by humans is to perform certain functions that satisfy a need.
+
+Any computer must run applications with different practical application areas
+
+These applications can be developed specifically for this operating system or ported from other platforms. This usually involves modifying the source code and compiling it.
+
+For this purpose, any Operating System provides programmers with an API (Application Programming Interface)
 
