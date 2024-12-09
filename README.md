@@ -40,7 +40,7 @@ To test the written and compiled code to see if it works correctly, we need an e
 I chose the QEMU program for testing. It is installed using the command: \
 *sudo apt install qemu-system*
 
-We verify that the NASM assembler is working correctly:
+We verify that the NASM assembler is working correctly: \
 *qemu-system-i386 --version*
 
 Now we have the working environment ready to start writing code to develop an operating system.
