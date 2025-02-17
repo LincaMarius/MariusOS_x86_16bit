@@ -1,5 +1,5 @@
 # An Operating System for the x86 architecture
-This Operating System is designed to run on computers that use the x86 Architecture.
+This Operating System is designed to run on IBM PC-comparable Computers that use the x86 Architecture.
 
 By: Lincă Marius Gheorghe.
 
