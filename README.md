@@ -52,7 +52,7 @@ Now we have the working environment ready to start writing code to develop an Op
 
 Developing an operating system can be accomplished through several steps.
 
-## Step 1 – Boot loader
+## Step 1 – Boot Loader
 Specific to IBM PC compatible Computers built with x86 processors is the Boot Process
 
 The Booting process involves loading the necessary files from an internal or external storage medium into the computer's memory and executing them. The main files required for an Operating System to function properly are the Kernel and Drivers. In x86 systems a file can only be run if it is already loaded into RAM.
@@ -62,6 +62,10 @@ The first step in the process of loading an operating system is the loading and 
 We can use an existing Boot Loader such as GRUB or we can create our own Boot Loader.
 
 I have approached the boot process in two stages, so the Boot Loader (which is in the Boot Sector) will load the Loader.bin file
+
+The current Boot Loader is at version 0.1.
+
+https://github.com/LincaMarius/MariusOS_x86_16bit/tree/main/MariusOS_v001/src/Boot/README.md
 
 ## Step 2 – The Loader
 The loader's role is to gather information about the system and, based on this, initialize the computer's hardware elements in the desired initial state necessary for an x86 computer to function correctly.
