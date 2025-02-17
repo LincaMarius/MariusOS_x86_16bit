@@ -20,4 +20,8 @@ Now I will create a Boot Loader step by step for a Floppy Disk with a capacity o
 ### Version 0.1
 Version 0.1 is recognized by the BIOS as a Boot Sector because it is 512 bytes in size and has the signature 0xAA55 at the end.
 
+https://github.com/LincaMarius/MariusOS_x86_16bit/blob/main/Versions/MariusOS_v001.zip
+
+### Version 0.2
+Version 0.2 will display the message “Loading” using the BIOS.
 
