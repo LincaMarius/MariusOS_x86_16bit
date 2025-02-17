@@ -24,7 +24,7 @@ To work safely on developing an operating system, the best solution is to use a 
 
 I will use the VirtualBox software running on Windows 11.
 
-1. After a fresh installation of the Ubuntu system in the virtual machine, the following commands must be run: \
+1. After a fresh installation of the Ubuntu Operating System on the Virtual Machine, the following commands must be run: \
 *sudo apt update* \
 *sudo apt install build-essential*
 
@@ -53,11 +53,11 @@ Now we have the working environment ready to start writing code to develop an Op
 Developing an operating system can be accomplished through several steps.
 
 ## Step 1 – Boot loader
-Specific to computers built with x86 processors is the Boot Process
+Specific to IBM PC compatible Computers built with x86 processors is the Boot Process
 
 The Booting process involves loading the necessary files from an internal or external storage medium into the computer's memory and executing them. The main files required for an Operating System to function properly are the Kernel and Drivers. In x86 systems a file can only be run if it is already loaded into RAM.
 
-The first step in the process of loading an operating system is the loading and launching of the Boot sector by the BIOS. It is also called the Boot Loader. This process occurs automatically when the computer is started and is made possible by the execution of a special code that is stored in a ROM (EEPROM type) memory located on the computer's motherboard and is called the BIOS.
+The first step in the process of loading an operating system is the loading and launching of the Boot Sector by the BIOS. It is also called the Boot Loader. This process occurs automatically when the computer is powered on and is made possible by the execution of a special code that is stored in a ROM Memory (EEPROM type) located on the computer's motherboard and is called BIOS.
 
 We can use an existing Boot Loader such as GRUB or we can create our own Boot Loader.
 
