@@ -23,5 +23,6 @@ Version 0.1 is recognized by the BIOS as a Boot Sector because it is 512 bytes i
 https://github.com/LincaMarius/MariusOS_x86_16bit/blob/main/Versions/MariusOS_v001.zip
 
 ### Version 0.2
-Version 0.2 will display the message “Loading” using the BIOS.
+Version 0.2 will display the letters '1', '2' and '3' consecutively on the screen.
 
+https://github.com/LincaMarius/MariusOS_x86_16bit/blob/main/Versions/MariusOS_v002.zip

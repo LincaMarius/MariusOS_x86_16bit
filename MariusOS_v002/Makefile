@@ -1,7 +1,9 @@
 ASM = nasm
 
-SRC_DIR = src
+SRC_DIR = src/Boot
 BUILD_DIR = build
+
+$(shell mkdir -p $(BUILD_DIR))
 
 $(BUILD_DIR)/floppy.img: $(BUILD_DIR)/Boot.bin
 	dd if=/dev/zero of=$(BUILD_DIR)/floppy.img bs=1024 count=1440
